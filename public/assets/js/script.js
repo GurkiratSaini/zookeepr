@@ -1,4 +1,5 @@
 const $animalForm = document.querySelector('#animal-form');
+const $zookeeperForm = document.querySelector('#zookeeper-form');
 
 const handleAnimalFormSubmit = event => {
   event.preventDefault();
@@ -44,7 +45,6 @@ const handleAnimalFormSubmit = event => {
       console.log(postResponse);
       alert('Thank you for adding an animal!');
     });
-
 };
 
 $animalForm.addEventListener('submit', handleAnimalFormSubmit);
