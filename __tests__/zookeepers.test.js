@@ -1,5 +1,5 @@
 const fs = require('fs');
-const { filterByQuery, findById, createNewZookeeper, validateZookeeper } = require("../lib/zookeepers.json");
+const { filterByQuery, findById, createNewZookeeper, validateZookeeper } = require("../lib/zookeepers");
 const { zookeepers } = require("../data/zookeepers.json");
 const { start } = require('repl');
 
